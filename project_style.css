@@ -1,0 +1,121 @@
+body{
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0px;
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.headerButton a{  /*настройка цвета кнопок */
+    color: black;
+    text-decoration: none;
+}
+
+#project a{
+    color: rgb(63, 179, 218);
+}
+
+.header{ /* настройка всей шапки */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.header_item{
+    padding: 10px 15px;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+.header_item:hover{
+    background-color: rgb(65, 113, 209);
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: right;
+}
+
+.line{
+    width: 200px;
+    border-top: 3px solid #32a1ce;
+    z-index: 2;
+    position: absolute;
+}
+
+.block_1 a{
+    margin-top: 80px;
+    padding-left: 50px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 255, 229);
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    z-index: 2;
+    position: absolute;
+}
+
+.block_2 a{
+    margin-top: 80px;
+    margin-left: 55%;
+    padding-right: 10px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 255, 229);
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    position: absolute;
+}
+
+#top_text_done { 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 50%; 
+    float: left;
+    justify-content: start;
+}
+
+#top_text_notdone {
+    position: absolute; 
+    right: 0;
+    top: 0; 
+    width: 50%;
+    float: right;
+    justify-content: end;
+    margin-right: 30px;
+} 
+
+.block_3{
+    position: fixed;
+    margin-top: 70px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(160, 160, 160));
+    z-index: 1;
+}
+
+.block_3 a{
+    color: rgb(0, 255, 229);
+    text-decoration: none;
+    padding: 15px 15px;
+    font-size: 22px;
+    margin-left: 15px;
+    margin-top: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1px;
+}
+

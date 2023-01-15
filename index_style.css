@@ -1,0 +1,97 @@
+body{
+    background-color: white;
+    overflow: hidden;
+    margin: 0px;
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.headerButton a{  /*настройка цвета кнопок */
+    color: black;
+    text-decoration: none;
+}
+
+#home a{
+    color: rgb(63, 179, 218);
+}
+
+.header{ /* настройка всей шапки */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.header_item{
+    padding: 10px 15px;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+.header_item:hover{
+    background-color: rgb(65, 113, 209);
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: right;
+}
+
+.block_1{
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(160, 160, 160));
+    z-index: 1;
+}
+
+.block_2 h2{
+    margin-top: 50px ;
+    margin-left: 30px;
+    color: rgb(0, 255, 229);
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-style: normal;
+    justify-content: space-between;
+    line-height: 0.3;
+}
+
+.block_2 h4{
+    margin-top: 50px ;
+    margin-left: 30px;
+    color: rgb(169,169,169);
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-style: normal;
+    justify-content: space-between;
+    max-width: 50%;
+    display: flex;
+    line-height: 0.05;
+}
+
+.block_3 {
+    margin-top: 80px;
+    margin-left: 800px;
+    width: 400px;
+    height: 400px;
+    justify-content: space-between;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.block_3 a{
+    color: rgb(0, 255, 229);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 27px;
+    font-weight: bold;
+}

@@ -1,0 +1,46 @@
+body{
+    background-color: white;
+    overflow: hidden;
+    margin: 0px;
+}
+.headerButton a{  /*настройка цвета кнопок */
+    color: black;
+    text-decoration: none;
+}
+
+#achievements a{
+    color: rgb(63, 179, 218);
+}
+
+.header{ /* настройка всей шапки */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.header_item{
+    padding: 10px 15px;
+    font-size: 21px;
+    margin-left: 5px;
+}
+
+.header_item:hover{
+    background-color: rgb(65, 113, 209);
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: right;
+}
+
+.block{
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(63, 179, 218);
+    z-index: 1;
+}
