@@ -34,7 +34,6 @@ body{
 .header_item{
     padding: 10px 15px;
     font-size: 22px;
-    margin-left: 5px;
 }
 
 .header_item:hover{
@@ -42,13 +41,6 @@ body{
     border-radius: 25px;
     cursor: pointer;
     text-align: right;
-}
-
-.line{
-    width: 200px;
-    border-top: 3px solid #32a1ce;
-    z-index: 2;
-    position: absolute;
 }
 
 .block_1 a{
