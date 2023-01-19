@@ -1,14 +1,7 @@
 body{
     background-color: white;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
     margin: 0px;
-    -webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
 }
 
 .headerButton a{  /*настройка цвета кнопок */
@@ -27,7 +20,6 @@ body{
     color: black;
     font-family: Comic Sans MS, Comic Sans, cursive;
     display: flex;
-    align-items: center;
     float: right;
 }
 
@@ -43,63 +35,64 @@ body{
     text-align: right;
 }
 
-.block_1{
-    width: 100%;
-    height: 100%;
+.main{ /*о отвечает за черный квадрат */
     position: absolute;
-    top: 1%;
-    left: 25%;
-}
-
-.block_2{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 3%;
-    left: 25%;
-}
-
-.block_1 a{
-    margin-top: 100px;
-    font-size: 22px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(0, 255, 229);
-    text-align: center;
-    justify-content: space-between;
-    z-index: 2;
-}
-
-.block_2 a{
-    margin-top: 100px;
-    font-size: 22px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(0, 255, 229);
-    text-align: center;
-    justify-content: space-between;
-    z-index: 2;
-}
-
-.block_3{
-    position: fixed;
     margin-top: 70px;
     width: 100%;
     height: 100%;
     background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(160, 160, 160));
-    z-index: 1;
+    justify-content: space-between;
 }
 
-.block_3 a{
-    color: rgb(0, 255, 229);
-    text-decoration: none;
-    padding: 15px 15px;
-    font-size: 22px;
-    padding-top: 60px;
-    margin-left: 15px;
-    margin-top: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    line-height: 1px;
+.block_1{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
 }
+
+.block_1_item{
+    color: rgb(0, 255, 229);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 27px;
+    line-height: 50px;
+}
+
+.grid_container{
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: space-between;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid_item a{
+    color: rgb(0, 255, 229);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 300px;
+    z-index: 2;
+}
+
+.footer{
+    background-color: white;
+    position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 4%;
+    font-size: 19px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+
+
+
+
 

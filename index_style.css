@@ -2,12 +2,6 @@ body{
     background-color: white;
     overflow: hidden;
     margin: 0px;
-    -webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
 }
 
 .headerButton a{  /*настройка цвета кнопок */
@@ -25,15 +19,12 @@ body{
     padding: 10px;
     color: black;
     font-family: Comic Sans MS, Comic Sans, cursive;
-    display: flex;
-    align-items: center;
     float: right;
 }
 
 .header_item{
     padding: 10px 15px;
     font-size: 22px;
-    margin-left: 5px;
 }
 
 .header_item:hover{
@@ -95,3 +86,16 @@ body{
     font-size: 27px;
     font-weight: bold;
 }
+
+.footer{
+    background-color: white;
+    position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 4%;
+    font-size: 19px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+
